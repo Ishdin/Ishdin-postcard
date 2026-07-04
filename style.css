@@ -4,19 +4,23 @@
     border-color: gray;
     background-color:rgb(37, 36, 36);
     border-style:solid;
-    margin: 150px 400px 300px 500px;
-    padding : 200px 50px 200px 100px;
+    margin: 200px 400px 300px 500px;
+    padding : 200px 10px 200px 0px;
 }
 .header {
-    width: 25%;
+    width: 26%;
     border: 2px;
     border-color: black;
     border-style:solid;
     background-color: white;
-    margin : 15px 20px 5px 270px;
-    padding: 0% 25% 1% 5%;
-    font-family: cursive;git 
-    font-size:30px;
+    margin : 15px 20px 5px 400px;
+    padding: 0% 15% 1% 1%;
+    font-family: cursive;
+    font-size:32px;
+    background-image: url("https://raw.githubusercontent.com/breatheco-de/exercise-postcard/refs/heads/main/.learn/assets/4geeks.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 12%;
 }
 .body {
     font-size: 20px;
@@ -24,8 +28,5 @@
 .footer {
   font-family: cursive;
   text-align: center;
-  font-size: 20px;
-}
-.Logo {
-    text-align:center;
+  font-size: 40px;
 }
