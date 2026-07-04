@@ -1,9 +1,20 @@
-
+.myborder {
+    width: 50%;
+    border : 2px;
+    border-color: gray;
+    background-color:  darkgrey;
+    border-style:solid;
+    margin: 10% 10% 0% 25%;
+    padding : 0% 5% 5% 1%;
+}
 .header {
     width: 25%;
-    border: 3px solid black;
-    margin : 10% 10% 5% 30%;
-    padding: 0% 0% 0.5% 1%;
+    border: 2px;
+    border-color: black;
+    border-style:solid;
+    background-color: white;
+    margin : 15% 10% 5% 30%;
+    padding: 0% 20% 0.5% 2%;
     font-family: cursive;
     font-size:30px;
 }
