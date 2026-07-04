@@ -1,13 +1,10 @@
 .Postcard {
-    width: 500px;
-    height: 400px;
+    width: 550px;
+    height: 350px;
     border:2px solid;
+    margin: auto;
 }
-
 .header {
-    width: 500px;
-    height: 50px;
-    background-color: white;
     display:flex;
 }
 .font{
@@ -23,20 +20,40 @@
     left: 280px;
 }
 .body {
-    width: 500px;
-    height: 300px;
-*    border: 2px solid;
+    width: 600px;
+    height: 200px;
     display: flex;
     font-family: cursive;
+    font-size: 18px;
 }
 .body-right {
     position:relative;
-    top: 10px;
-    left: 100px;
+    top: 0px;
+    left: 0px;
+    color: gray;
+    font-size: 18px;
+}
+.input {
+    border:none;
+    border-bottom: 1px solid;
+    border-inline: 5px;
+    font-size: 18px;
+    font-family: cursive;
 }
 .body-left {
+    height: 700px;
+    width: 700px;
     position: relative;
-    top:10px;
-    left: 10px;
+    top:-20px;
+    left: 10px;    
+}
+
+.footer {
+    position: relative;
+    top:0px;
+    left:180px;
+}
+.button {
     font-family: cursive;
+    font-size: 18px;
 }
